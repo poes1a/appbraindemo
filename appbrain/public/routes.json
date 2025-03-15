@@ -1,3 +1,20 @@
 {
- 
+  "routes": [
+    {
+      "route": "/venta",
+      "serve": "/index.html"
+    },
+    {
+      "route": "/agenda",
+      "serve": "/index.html"
+    },
+    {
+      "route": "/about",
+      "serve": "/index.html"
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/assets/*", "/static/*"]
+  }
 }
