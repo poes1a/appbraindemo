@@ -12,10 +12,10 @@ import HelloWorld from './components/HelloWorld.vue'
           <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="100" height="100" />
         </a>
       </div>
-      <!-- <nav>
+      <nav>
         <RouterLink to="/venta">Venta</RouterLink>
         <RouterLink to="/agenda">Agenda</RouterLink>
-      </nav> -->
+      </nav>
     </header>
     <!-- Fin Header -->
 
